@@ -16,7 +16,7 @@ git clone --recurse-submodules https://github.com/brayton-anderson/WatchOS.git
 Open the cloned repo in VSCode
 
 ```
-code open-smartwatch-os
+code WatchOS
 ```
 
 and rename file `include/config.h.example` to `include/config.h` and adapt the values according to your requirements and press f5 to build it.
