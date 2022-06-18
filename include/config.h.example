@@ -1,0 +1,23 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+// README:
+// If you want to override the defaults, copy this file to "config.h", and change below.
+// See config_defaults.h for details and possible overrides.
+
+#define CONFIG_WIFI_SSID "yourSSID"
+#define CONFIG_WIFI_PASS "yourP4ssw0rd"
+
+#define LOCALE "locales/en-US.h"
+
+#define DEVICE_NAME "yourDeviceName"
+
+#define CONFIG_TIMEZONE 1
+#define CONFIG_DAYLIGHTOFFSET 0
+#define CONFIG_DATE_FORMAT "mm/dd/yyyy"
+
+// Experimentals (1 = enable, 0 = disable):
+#define SERVICE_BLE_COMPANION 0
+
+
+#endif
