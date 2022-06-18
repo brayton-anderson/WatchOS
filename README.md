@@ -1,6 +1,5 @@
 # HowTo Run
 
-**Please read the documentation on the [website](https://open-smartwatch.github.io/resources/firmware/)!**
 
 ## Prerequirements
 
@@ -9,7 +8,7 @@
 * Then clone this repository
 
 ```
-git clone --recurse-submodules https://github.com/Open-Smartwatch/open-smartwatch-os.git
+git clone --recurse-submodules https://github.com/brayton-anderson/WatchOS.git
 ```
 
 ## build (Visual Studio Code)
@@ -40,8 +39,8 @@ depending on the watch model.
 
 ## Creating Screen Shots of your Apps
 
-![analog](./watchface_analog_osw.png)
-![analog](./watchface_digital_osw.png)
+<!-- ![analog](./watchface_analog_osw.png)
+![analog](./watchface_digital_osw.png) -->
 
 * Wifi needs to be able to connect for this to work.
 * you will need bash and imagemagick for the helper scripts to work
